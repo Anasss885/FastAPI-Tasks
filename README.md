@@ -76,6 +76,7 @@ Make sure uvicorn is installed and available in your PATH.
   i.e :  they are Different forms of "Task data", but treated through a common structure , That's polymorphism via inheritance and structure.
 
   Eventually, we will talk about the Performance of application :
+    Our application leverages efficient data structures like Enums for filtering and SQLModel for structured data modeling, combining the power of Pydantic validation with SQLAlchemy ORM. We use relational tables backed by SQLite, with indexed primary key lookups ensuring constant-time access to tasks by ID. Pagination is implemented using offset and limit to prevent performance bottlenecks when handling large datasets. Each request operates within its own database session, ensuring isolated, performant interactions. Overall, the system is well-optimized for small to medium scale and can be scaled further by integrating advanced indexing, caching, or migrating to a more robust database engine like PostgreSQL.
   
          
     

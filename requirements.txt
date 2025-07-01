@@ -1,0 +1,8 @@
+here all of Python Dependecies you need to run this app properly :
+
+fastapi
+uvicorn
+sqlmodel
+pydantic
+sqlalchemy
+typing_extensions
